@@ -1,0 +1,114 @@
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1
+$ git init
+Initialized empty Git repository in C:/Vaibhavi/GitDay1/Assignment1/.git/
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ git config --global user.name 'vaibhu6'
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ git config --global user.email 'vaibhavisawant75@gmail.com'
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ git --version
+git version 2.7.0.windows.1
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ touch index.html
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ git add .
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ git commit -m 'Created index.html'
+[master (root-commit) da6c2a1] Created index.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ touch info.txt
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        info.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ touch .gitignore
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ git reset
+Unstaged changes after reset:
+M       index.html
+
+
+h
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$
+e
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ git reset HEAD info.txt
+Unstaged changes after reset:
+M       index.html
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ git add .
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .gitignore
+        modified:   index.html
+
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ git commit -m 'Changed index.html'
+[master f1f3561] Changed index.html
+ 2 files changed, 12 insertions(+)
+ create mode 100644 .gitignore
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ touch log.txt
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$ ^C
+
+vaisawan@BLRTRNGX38 MINGW64 /c/Vaibhavi/GitDay1/Assignment1 (master)
+$
